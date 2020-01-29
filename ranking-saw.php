@@ -40,15 +40,10 @@ $wargas = $query2->fetchAll();
 
 
 $kriteria2 = query('SELECT * FROM kriteria ORDER BY urutan_order ASC');
+$dataBobot = query('SELECT bobot FROM kriteria ORDER BY urutan_order ASC');
 $nilai2 = [];
 $nilaiA = [];
 $niliaB = [];
-foreach($nilia2 as $coba):
-
-	// echo $coba["nilai"];
-
-endforeach;
-
 
 
 /* >>> STEP 1 ===================================
@@ -136,9 +131,6 @@ foreach($wargas as $warga):
 	$ranks[$warga['id_warga']]['nama_warga'] = $warga['nama_warga'];
 	$ranks[$warga['id_warga']]['nilai'] = $total_nilai;
 
-	// echo '<td>';
-	// echo $total_nilai;
-	// echo '</td>';
 	
 endforeach;
 
@@ -193,28 +185,28 @@ if (count($userA) == count($userB)) {
 		$angka ++;
 	endforeach;
 }
-
-
 ?>
 
-<?php foreach($wargas as $warga): ?>
-	<?php
-	$total_nilai = 0;
-	foreach($kriteria2 as $kriteria):
 
-		$test = $matriks_r[$id_kriteria][$id_warga];
-		$id_warga = $warga['id_warga'];
-		$bobot = $kriteria['bobot'];
+<?php
+$finalA = 0;
+$finalB = 0;
+$hitungan = 0;
+$final = [];
 
-		$id_kriteria = $kriteria2['id_kriteria'];
-		$dikali = $bobot * $test;
-		$total_nilai = $total_nilai + $dikali;
+foreach ($kriteria2 as $data) :
 
-	endforeach;
-	// echo $total_nilai;
-	// echo '<br>';
-	?>
-<?php endforeach; ?>
+	$bobot = $data['bobot'];
+	$diKaliA = $bobot * $resultA[$hitungan];
+	$diKaliB = $bobot * $resultB[$hitungan];
+	$finalA = $finalA + $diKaliA;
+	$finalB = $finalB + $diKaliB;
+	
+	$hitungan ++;
+endforeach;
+array_push($final, $finalA, $finalB);
+
+?>
 
 <div class="main-content-row">
 <div class="container clearfix">	
@@ -321,15 +313,7 @@ if (count($userA) == count($userB)) {
 							echo $theData;
 							echo '</td>';
 						endforeach;
-		
-						// foreach($kriterias as $kriteria):
-						// 	$test = round($matriks_r[$id_kriteria][$id_warga], $digit);
-						// 	$id_warga = $warga['id_warga'];
-						// 	$id_kriteria = $kriteria['id_kriteria'];
-						// 	echo '<td>';
-						// 	echo $test;
-						// 	echo '</td>';
-						// endforeach;
+
 						?>
 					</tr>
 				<?php endforeach; ?>				
@@ -360,12 +344,14 @@ if (count($userA) == count($userB)) {
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach($sorted_ranks as $warga ): ?>
+				<?php 
+				$dg = 0;
+				foreach($sorted_ranks as $warga ): ?>
 					<tr>
 						<td><?php echo $warga['nama_warga']; ?></td>
-						<td><?php echo round($warga['nilai'], $digit); ?></td>											
+						<td><?php echo $final[$dg] ?></td>											
 					</tr>
-				<?php endforeach; ?>
+				<?php $dg ++; endforeach; ?>
 			</tbody>
 		</table>			
 		
