@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', 'Buka1234', 'huntap');
+$conn = mysqli_connect('localhost', 'root', '', 'huntap');
 
 
 function query($arg) {
