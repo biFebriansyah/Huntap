@@ -1,0 +1,647 @@
+phpinfo()
+PHP Version => 7.4.2
+
+System => Linux V 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020 x86_64
+Build Date => Jan 23 2020 11:21:30
+Server API => Command Line Interface
+Virtual Directory Support => disabled
+Configuration File (php.ini) Path => /etc/php/7.4/cli
+Loaded Configuration File => /etc/php/7.4/cli/php.ini
+Scan this dir for additional .ini files => /etc/php/7.4/cli/conf.d
+Additional .ini files parsed => /etc/php/7.4/cli/conf.d/10-opcache.ini,
+/etc/php/7.4/cli/conf.d/10-pdo.ini,
+/etc/php/7.4/cli/conf.d/20-calendar.ini,
+/etc/php/7.4/cli/conf.d/20-ctype.ini,
+/etc/php/7.4/cli/conf.d/20-exif.ini,
+/etc/php/7.4/cli/conf.d/20-ffi.ini,
+/etc/php/7.4/cli/conf.d/20-fileinfo.ini,
+/etc/php/7.4/cli/conf.d/20-ftp.ini,
+/etc/php/7.4/cli/conf.d/20-gettext.ini,
+/etc/php/7.4/cli/conf.d/20-iconv.ini,
+/etc/php/7.4/cli/conf.d/20-json.ini,
+/etc/php/7.4/cli/conf.d/20-phar.ini,
+/etc/php/7.4/cli/conf.d/20-posix.ini,
+/etc/php/7.4/cli/conf.d/20-readline.ini,
+/etc/php/7.4/cli/conf.d/20-shmop.ini,
+/etc/php/7.4/cli/conf.d/20-sockets.ini,
+/etc/php/7.4/cli/conf.d/20-sysvmsg.ini,
+/etc/php/7.4/cli/conf.d/20-sysvsem.ini,
+/etc/php/7.4/cli/conf.d/20-sysvshm.ini,
+/etc/php/7.4/cli/conf.d/20-tokenizer.ini
+
+PHP API => 20190902
+PHP Extension => 20190902
+Zend Extension => 320190902
+Zend Extension Build => API320190902,NTS
+PHP Extension Build => API20190902,NTS
+Debug Build => no
+Thread Safety => disabled
+Zend Signal Handling => enabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => disabled
+IPv6 Support => enabled
+DTrace Support => available, disabled
+
+Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
+Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2, tlsv1.3
+Registered Stream Filters => zlib.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, convert.iconv.*
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Zend OPcache v7.4.2, Copyright (c), by Zend Technologies
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+calendar
+
+Calendar support => enabled
+
+Core
+
+PHP Version => 7.4.2
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => Off => Off
+display_startup_errors => Off => Off
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => Off => Off
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_prepend_string => no value => no value
+error_reporting => 22527 => 22527
+expose_php => On => On
+extension_dir => /usr/lib/php/20190902 => /usr/lib/php/20190902
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .:/usr/share/php => .:/usr/share/php
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => On => On
+log_errors_max_len => 1024 => 1024
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+memory_limit => -1 => -1
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => GP => GP
+sendmail_from => no value => no value
+sendmail_path => /usr/sbin/sendmail -t -i  => /usr/sbin/sendmail -t -i 
+serialize_precision => -1 => -1
+short_open_tag => Off => Off
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sys_temp_dir => no value => no value
+syslog.facility => LOG_USER => LOG_USER
+syslog.filter => no-ctrl => no-ctrl
+syslog.ident => php => php
+track_errors => Off => Off
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => GPCS => GPCS
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => -1 => -1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.exception_ignore_args => On => On
+zend.multibyte => Off => Off
+zend.script_encoding => no value => no value
+zend.signal_check => Off => Off
+
+ctype
+
+ctype functions => enabled
+
+date
+
+date/time support => enabled
+timelib version => 2018.03
+"Olson" Timezone Database Version => 0.system
+Timezone Database => internal
+Default timezone => Asia/Jakarta
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.583333 => 90.583333
+date.sunset_zenith => 90.583333 => 90.583333
+date.timezone => no value => no value
+
+exif
+
+EXIF Support => enabled
+Supported EXIF Version => 0220
+Supported filetypes => JPEG, TIFF
+Multibyte decoding support using mbstring => disabled
+Extended EXIF tag formats => Canon, Casio, Fujifilm, Nikon, Olympus, Samsung, Panasonic, DJI, Sony, Pentax, Minolta, Sigma, Foveon, Kyocera, Ricoh, AGFA, Epson
+
+Directive => Local Value => Master Value
+exif.decode_jis_intel => JIS => JIS
+exif.decode_jis_motorola => JIS => JIS
+exif.decode_unicode_intel => UCS-2LE => UCS-2LE
+exif.decode_unicode_motorola => UCS-2BE => UCS-2BE
+exif.encode_jis => no value => no value
+exif.encode_unicode => ISO-8859-15 => ISO-8859-15
+
+FFI
+
+FFI support => enabled
+
+Directive => Local Value => Master Value
+ffi.enable => preload => preload
+ffi.preload => no value => no value
+
+fileinfo
+
+fileinfo support => enabled
+libmagic => 537
+
+filter
+
+Input Validation and Filtering => enabled
+
+Directive => Local Value => Master Value
+filter.default => unsafe_raw => unsafe_raw
+filter.default_flags => no value => no value
+
+ftp
+
+FTP support => enabled
+FTPS support => enabled
+
+gettext
+
+GetText Support => enabled
+
+hash
+
+hash support => enabled
+Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+MHASH support => Enabled
+MHASH API Version => Emulated Support
+
+iconv
+
+iconv support => enabled
+iconv implementation => glibc
+iconv library version => 2.27
+
+Directive => Local Value => Master Value
+iconv.input_encoding => no value => no value
+iconv.internal_encoding => no value => no value
+iconv.output_encoding => no value => no value
+
+json
+
+json support => enabled
+
+libxml
+
+libXML support => active
+libXML Compiled Version => 2.9.9
+libXML Loaded Version => 20904
+libXML streams => enabled
+
+openssl
+
+OpenSSL support => enabled
+OpenSSL Library Version => OpenSSL 1.1.1  11 Sep 2018
+OpenSSL Header Version => OpenSSL 1.1.1d  10 Sep 2019
+Openssl default config => /usr/lib/ssl/openssl.cnf
+
+Directive => Local Value => Master Value
+openssl.cafile => no value => no value
+openssl.capath => no value => no value
+
+pcntl
+
+pcntl support => enabled
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 10.34 2019-11-21
+PCRE Unicode Version => 12.1.0
+PCRE JIT Support => enabled
+PCRE JIT Target => x86 64bit (little endian + unaligned)
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.jit => 1 => 1
+pcre.recursion_limit => 100000 => 100000
+
+PDO
+
+PDO support => enabled
+PDO drivers =>  
+
+Phar
+
+Phar: PHP Archive support => enabled
+Phar API version => 1.1.1
+Phar-based phar archives => enabled
+Tar-based phar archives => enabled
+ZIP-based phar archives => enabled
+gzip compression => enabled
+bzip2 compression => disabled (install ext/bz2)
+Native OpenSSL support => enabled
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive => Local Value => Master Value
+phar.cache_list => no value => no value
+phar.readonly => On => On
+phar.require_hash => On => On
+
+posix
+
+POSIX support => enabled
+
+readline
+
+Readline Support => enabled
+Readline library => EditLine wrapper
+
+Directive => Local Value => Master Value
+cli.pager => no value => no value
+cli.prompt => \b \>  => \b \> 
+
+Reflection
+
+Reflection => enabled
+
+session
+
+Session Support => enabled
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary 
+
+Directive => Local Value => Master Value
+session.auto_start => Off => Off
+session.cache_expire => 180 => 180
+session.cache_limiter => nocache => nocache
+session.cookie_domain => no value => no value
+session.cookie_httponly => no value => no value
+session.cookie_lifetime => 0 => 0
+session.cookie_path => / => /
+session.cookie_samesite => no value => no value
+session.cookie_secure => 0 => 0
+session.gc_divisor => 1000 => 1000
+session.gc_maxlifetime => 1440 => 1440
+session.gc_probability => 0 => 0
+session.lazy_write => On => On
+session.name => PHPSESSID => PHPSESSID
+session.referer_check => no value => no value
+session.save_handler => files => files
+session.save_path => /var/lib/php/sessions => /var/lib/php/sessions
+session.serialize_handler => php => php
+session.sid_bits_per_character => 5 => 5
+session.sid_length => 26 => 26
+session.upload_progress.cleanup => On => On
+session.upload_progress.enabled => On => On
+session.upload_progress.freq => 1% => 1%
+session.upload_progress.min_freq => 1 => 1
+session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix => upload_progress_ => upload_progress_
+session.use_cookies => 1 => 1
+session.use_only_cookies => 1 => 1
+session.use_strict_mode => 0 => 0
+session.use_trans_sid => 0 => 0
+
+shmop
+
+shmop support => enabled
+
+sockets
+
+Sockets Support => enabled
+
+sodium
+
+sodium support => enabled
+libsodium headers version => 1.0.18
+libsodium library version => 1.0.16
+
+SPL
+
+SPL support => enabled
+Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+standard
+
+Dynamic Library Support => enabled
+Path to sendmail => /usr/sbin/sendmail -t -i 
+
+Directive => Local Value => Master Value
+assert.active => 1 => 1
+assert.bail => 0 => 0
+assert.callback => no value => no value
+assert.exception => 0 => 0
+assert.quiet_eval => 0 => 0
+assert.warning => 1 => 1
+auto_detect_line_endings => 0 => 0
+default_socket_timeout => 60 => 60
+from => no value => no value
+session.trans_sid_hosts => no value => no value
+session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+unserialize_max_depth => 4096 => 4096
+url_rewriter.hosts => no value => no value
+url_rewriter.tags => form= => form=
+user_agent => no value => no value
+
+sysvmsg
+
+sysvmsg support => enabled
+
+sysvsem
+
+sysvsem support => enabled
+
+sysvshm
+
+sysvshm support => enabled
+
+tokenizer
+
+Tokenizer Support => enabled
+
+Zend OPcache
+
+Opcode Caching => Disabled
+Optimization => Disabled
+SHM Cache => Enabled
+File Cache => Disabled
+Startup Failed => Opcode Caching is disabled for CLI
+
+Directive => Local Value => Master Value
+opcache.blacklist_filename => no value => no value
+opcache.consistency_checks => 0 => 0
+opcache.dups_fix => Off => Off
+opcache.enable => On => On
+opcache.enable_cli => Off => Off
+opcache.enable_file_override => Off => Off
+opcache.error_log => no value => no value
+opcache.file_cache => no value => no value
+opcache.file_cache_consistency_checks => 1 => 1
+opcache.file_cache_only => 0 => 0
+opcache.file_update_protection => 2 => 2
+opcache.force_restart_timeout => 180 => 180
+opcache.huge_code_pages => Off => Off
+opcache.interned_strings_buffer => 8 => 8
+opcache.lockfile_path => /tmp => /tmp
+opcache.log_verbosity_level => 1 => 1
+opcache.max_accelerated_files => 10000 => 10000
+opcache.max_file_size => 0 => 0
+opcache.max_wasted_percentage => 5 => 5
+opcache.memory_consumption => 128 => 128
+opcache.opt_debug_level => 0 => 0
+opcache.optimization_level => 0x7FFEBFFF => 0x7FFEBFFF
+opcache.preferred_memory_model => no value => no value
+opcache.preload => no value => no value
+opcache.preload_user => no value => no value
+opcache.protect_memory => 0 => 0
+opcache.restrict_api => no value => no value
+opcache.revalidate_freq => 2 => 2
+opcache.revalidate_path => Off => Off
+opcache.save_comments => 1 => 1
+opcache.use_cwd => On => On
+opcache.validate_permission => Off => Off
+opcache.validate_root => Off => Off
+opcache.validate_timestamps => On => On
+
+zlib
+
+ZLib Support => enabled
+Stream Wrapper => compress.zlib://
+Stream Filter => zlib.inflate, zlib.deflate
+Compiled Version => 1.2.11
+Linked Version => 1.2.11
+
+Directive => Local Value => Master Value
+zlib.output_compression => Off => Off
+zlib.output_compression_level => -1 => -1
+zlib.output_handler => no value => no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable => Value
+LC_TELEPHONE => id_ID.UTF-8
+LANG => en_US.UTF-8
+DISPLAY => :0
+SHLVL => 1
+LOGNAME => ebifebrian
+XDG_VTNR => 2
+LC_NAME => id_ID.UTF-8
+PWD => /home/ebifebrian/Desktop/huntap
+COLORTERM => truecolor
+XDG_SESSION_ID => 3
+GNOME_TERMINAL_SCREEN => /org/gnome/Terminal/screen/1289dd18_acb4_4fce_a338_f81cce76d139
+DESKTOP_SESSION => gnome
+XDG_SESSION_DESKTOP => gnome
+GDMSESSION => gnome
+USERNAME => ebifebrian
+LC_NUMERIC => id_ID.UTF-8
+LC_MEASUREMENT => id_ID.UTF-8
+WAYLAND_DISPLAY => wayland-0
+LC_IDENTIFICATION => id_ID.UTF-8
+LC_MONETARY => id_ID.UTF-8
+LC_PAPER => id_ID.UTF-8
+DBUS_SESSION_BUS_ADDRESS => unix:path=/run/user/1000/bus
+GNOME_DESKTOP_SESSION_ID => this-is-deprecated
+VTE_VERSION => 5202
+_ => /usr/bin/php
+GNOME_TERMINAL_SERVICE => :1.65
+GJS_DEBUG_TOPICS => JS ERROR;JS LOG
+XDG_DATA_DIRS => /home/ebifebrian/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_MENU_PREFIX => gnome-
+OLDPWD => /home/ebifebrian/Desktop
+QT_IM_MODULE => ibus
+XDG_SESSION_TYPE => wayland
+LC_TIME => id_ID.UTF-8
+GJS_DEBUG_OUTPUT => stderr
+TERM => xterm-256color
+SESSION_MANAGER => local/V:@/tmp/.ICE-unix/2928,unix/V:/tmp/.ICE-unix/2928
+XDG_CURRENT_DESKTOP => GNOME
+SSH_AUTH_SOCK => /run/user/1000/keyring/ssh
+PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ebifebrian/.composer/vendor/bin:/home/ebifebrian/.npm-global/bin:/home/ebifebrian/.cargo/bin:/home/ebifebrian/.gem/bin:/home/ebifebrian/.local/bin
+SHELL => /usr/bin/zsh
+HOME => /home/ebifebrian
+XDG_SEAT => seat0
+XMODIFIERS => @im=ibus
+XDG_RUNTIME_DIR => /run/user/1000
+LC_ADDRESS => id_ID.UTF-8
+USER => ebifebrian
+LANGUAGE => en_US.UTF-8
+EDITOR => subl
+PAGER => less
+ZSH => /home/ebifebrian/.oh-my-zsh
+PROMPT_EOL_MARK =>  
+HISTORY_IGNORE => ([bf]g|c|clear|e|exit|h|history|incognito|l|l[adfls]|pwd|z)
+BAT_THEME => Material-Theme-Darker
+FZF_DEFAULT_OPTS =>      --color=fg:#c0c5ce,bg:#212121,hl:#808080,fg+:#e6e6e6,bg+:#3b3b3b,hl+:#f7c662     --color=info:#f7c662,prompt:#6699cc,pointer:#a6bc69,marker:#a6bc69,spinner:#f7c662,header:#6699cc
+NNN_BMS => d:~/Downloads;D:~/Documents;t:~/Temporary
+NNN_PLUG => D:mediainf
+NNN_TRASH => 1
+RIPGREP_CONFIG_PATH => /home/ebifebrian/.ripgreprc
+LESS => --RAW-CONTROL-CHARS
+LESS_TERMCAP_mb => [1;31m
+LESS_TERMCAP_md => [1;34m
+LESS_TERMCAP_me => [0m
+LESS_TERMCAP_so => [38;5;215m
+LESS_TERMCAP_se => [0m
+LESS_TERMCAP_us => [4;35m
+LESS_TERMCAP_ue => [0m
+LSCOLORS => Gxfxcxdxbxegedabagacad
+LS_COLORS => no=0:fi=0:rs=0:di=36:ln=4;35:mh=4;32:pi=30;44:so=38;5;125;44:do=30;45:bd=38;5;221;44:cd=38;5;255;44:or=5;38;5;255;41:mi=5;38;5;255;41:su=30;41:sg=30;43:ca=30;42:tw=38;5;161;46:ow=30;46:st=38;5;54;44:ex=1;31:*.info=34:*.log=34:*.markdown=34:*.md=34:*.MD=34:*.mkd=34:*.org=34:*.rst=34:*.txt=34:*.TXT=34:*AUTHORS=1;34:*Changelog=1;34:*ChangeLog=1;34:*CHANGELOG=1;34:*CHANGELOG.md=1;34:*CHANGES=1;34:*CHANGES.md=1;34:*code-of-conduct.md=1;34:*CODE_OF_CONDUCT.md=1;34:*CONTRIBUTING=1;34:*contributing.md=1;34:*CONTRIBUTING.md=1;34:*CONTRIBUTORS=1;34:*COPYING=1;34:*COPYRIGHT=1;34:*HACKING=1;34:*HISTORY=1;34:*INSTALL=1;34:*INSTALL.md=1;34:*LICENSE=1;34:*LICENSE.md=1;34:*LICENSE.MD=1;34:*NEWS=1;34:*NOTICE=1;34:*PATENTS=1;34:*README=1;34:*readme.md=1;34:*README.md=1;34:*README.MD=1;34:*README.rst=1;34:*THANKS=1;34:*TODO=1;34:*VERSION=1;34:*.ac=32:*.asm=32:*.aspx=32:*.bash=32:*.c=32:*.C=32:*.cc=32:*.cl=32:*.class=32:*.coffee=32:*.cpp=32:*.csh=32:*.css=32:*.csv=32:*.cxx=32:*.db=32:*.el=32:*.erb=32:*.f90=32:*.fish=32:*.go=32:*.h=32:*.haml=32:*.hpp=32:*.hs=32:*.htm=32:*.html=32:*.java=32:*.js=32:*.json=32:*.l=32:*.less=32:*.lisp=32:*.lock=32:*.lua=32:*.m=32:*.man=32:*.n=32:*.p=32:*.php=32:*.pl=32:*.pm=32:*.pod=32:*.py=32:*.r=32:*.rb=32:*.rdf=32:*.rs=32:*.rss=32:*.sass=32:*.scss=32:*.sh=32:*.shtml=32:*.sql=32:*.sqlite=32:*.sv=32:*.svh=32:*.tex=32:*.toml=32:*.ts=32:*.v=32:*.vh=32:*.vhd=32:*.vim=32:*.xml=32:*.yaml=32:*.yml=32:*.zsh=32:*.am=38;5;246:*.in=38;5;246:*.m4=38;5;246:*.editorconfig=38;5;246:*.env=38;5;246:*.example=38;5;246:*.gitignore=38;5;246:*.gitattributes=38;5;246:*.gitmodules=38;5;246:*Makefile=32:*.3des=34:*.aes=34:*.asc=34:*.cer=34:*.cfg=34:*.conf=34:*.csr=34:*.desktop=34:*.enc=34:*.gpg=34:*.ini=34:*.otf=34:*.pgp=34:*.pid=34:*.ttf=34:*.apk=31:*.app=31:*.bat=31:*.com=31:*.exe=31:*.ai=33:*.bmp=33:*.cdr=33:*.cgm=33:*.dl=33:*.dvi=33:*.emf=33:*.eps=33:*.gif=33:*.ico=33:*.jpeg=33:*.jpg=33:*.JPG=33:*.mng=33:*.pbm=33:*.pcx=33:*.pgm=33:*.png=33:*.PNG=33:*.ppm=33:*.pps=33:*.ppsx=33:*.ps=33:*.psd=33:*.svg=33:*.svgz=33:*.tga=33:*.tif=33:*.tiff=33:*.xbm=33:*.xcf=33:*.xpm=33:*.xwd=33:*.yuv=33:*.aac=33:*.au=33:*.flac=33:*.m4a=33:*.mid=33:*.midi=33:*.mka=33:*.mp3=33:*.mpa=33:*.ogg=33:*.opus=33:*.ra=33:*.wav=33:*.wma=33:*.3g2=33:*.3gp=33:*.anx=33:*.asf=33:*.ass=33:*.avi=33:*.axv=33:*.flc=33:*.fli=33:*.flv=33:*.gl=33:*.m2v=33:*.m4v=33:*.mkv=33:*.mov=33:*.MOV=33:*.mp4=33:*.MP4=33:*.mp4v=33:*.mpeg=33:*.mpg=33:*.nuv=33:*.ogm=33:*.ogv=33:*.ogx=33:*.qt=33:*.rm=33:*.rmvb=33:*.srt=33:*.swf=33:*.vob=33:*.vtt=33:*.webm=33:*.wmv=33:*.xspf=33:*.djvu=31:*.doc=31:*.docx=31:*.dot=31:*.dotx=31:*.fla=31:*.odp=31:*.ods=31:*.odt=31:*.otp=31:*.ots=31:*.ott=31:*.pdf=31:*.ppt=31:*.pptx=31:*.rtf=31:*.vcf=31:*.wps=31:*.xls=31:*.xlsx=31:*.7z=35:*.arj=35:*.bin=35:*.bz=35:*.bz2=35:*.cab=35:*.crx=35:*.deb=35:*.dmg=35:*.gem=35:*.gz=35:*.iso=35:*.jar=35:*.lz=35:*.lzma=35:*.msi=35:*.pkg=35:*.rar=35:*.rpm=35:*.s7z=35:*.sz=35:*.tar=35:*.tbz=35:*.tbz2=35:*.tgz=35:*.tx=35:*.war=35:*.xpi=35:*.xz=35:*.z=35:*.Z=35:*.zip=35:*.zipx=35:*.torrent=34:*.crdownload=37:*~=1;34:*#=1;34:*.bak=38;5;246:*.BAK=38;5;246:*.dat=38;5;246:*.DAT=38;5;246:*.dist=38;5;246:*.DIST=38;5;246:*.dll=38;5;246:*.o=38;5;246:*.off=38;5;246:*.OFF=38;5;246:*.old=38;5;246:*.OLD=38;5;246:*.org_archive=38;5;246:*.orig=38;5;246:*.ORIG=38;5;246:*.rlib=38;5;246:*.sassc=38;5;246:*.swo=38;5;246:*.swp=38;5;246:*.tmp=38;5;246:*lockfile=38;5;246:
+
+PHP Variables
+
+Variable => Value
+$_SERVER['LC_TELEPHONE'] => id_ID.UTF-8
+$_SERVER['LANG'] => en_US.UTF-8
+$_SERVER['DISPLAY'] => :0
+$_SERVER['SHLVL'] => 1
+$_SERVER['LOGNAME'] => ebifebrian
+$_SERVER['XDG_VTNR'] => 2
+$_SERVER['LC_NAME'] => id_ID.UTF-8
+$_SERVER['PWD'] => /home/ebifebrian/Desktop/huntap
+$_SERVER['COLORTERM'] => truecolor
+$_SERVER['XDG_SESSION_ID'] => 3
+$_SERVER['GNOME_TERMINAL_SCREEN'] => /org/gnome/Terminal/screen/1289dd18_acb4_4fce_a338_f81cce76d139
+$_SERVER['DESKTOP_SESSION'] => gnome
+$_SERVER['XDG_SESSION_DESKTOP'] => gnome
+$_SERVER['GDMSESSION'] => gnome
+$_SERVER['USERNAME'] => ebifebrian
+$_SERVER['LC_NUMERIC'] => id_ID.UTF-8
+$_SERVER['LC_MEASUREMENT'] => id_ID.UTF-8
+$_SERVER['WAYLAND_DISPLAY'] => wayland-0
+$_SERVER['LC_IDENTIFICATION'] => id_ID.UTF-8
+$_SERVER['LC_MONETARY'] => id_ID.UTF-8
+$_SERVER['LC_PAPER'] => id_ID.UTF-8
+$_SERVER['DBUS_SESSION_BUS_ADDRESS'] => unix:path=/run/user/1000/bus
+$_SERVER['GNOME_DESKTOP_SESSION_ID'] => this-is-deprecated
+$_SERVER['VTE_VERSION'] => 5202
+$_SERVER['_'] => /usr/bin/php
+$_SERVER['GNOME_TERMINAL_SERVICE'] => :1.65
+$_SERVER['GJS_DEBUG_TOPICS'] => JS ERROR;JS LOG
+$_SERVER['XDG_DATA_DIRS'] => /home/ebifebrian/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+$_SERVER['XDG_MENU_PREFIX'] => gnome-
+$_SERVER['OLDPWD'] => /home/ebifebrian/Desktop
+$_SERVER['QT_IM_MODULE'] => ibus
+$_SERVER['XDG_SESSION_TYPE'] => wayland
+$_SERVER['LC_TIME'] => id_ID.UTF-8
+$_SERVER['GJS_DEBUG_OUTPUT'] => stderr
+$_SERVER['TERM'] => xterm-256color
+$_SERVER['SESSION_MANAGER'] => local/V:@/tmp/.ICE-unix/2928,unix/V:/tmp/.ICE-unix/2928
+$_SERVER['XDG_CURRENT_DESKTOP'] => GNOME
+$_SERVER['SSH_AUTH_SOCK'] => /run/user/1000/keyring/ssh
+$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ebifebrian/.composer/vendor/bin:/home/ebifebrian/.npm-global/bin:/home/ebifebrian/.cargo/bin:/home/ebifebrian/.gem/bin:/home/ebifebrian/.local/bin
+$_SERVER['SHELL'] => /usr/bin/zsh
+$_SERVER['HOME'] => /home/ebifebrian
+$_SERVER['XDG_SEAT'] => seat0
+$_SERVER['XMODIFIERS'] => @im=ibus
+$_SERVER['XDG_RUNTIME_DIR'] => /run/user/1000
+$_SERVER['LC_ADDRESS'] => id_ID.UTF-8
+$_SERVER['USER'] => ebifebrian
+$_SERVER['LANGUAGE'] => en_US.UTF-8
+$_SERVER['EDITOR'] => subl
+$_SERVER['PAGER'] => less
+$_SERVER['ZSH'] => /home/ebifebrian/.oh-my-zsh
+$_SERVER['PROMPT_EOL_MARK'] => 
+$_SERVER['HISTORY_IGNORE'] => ([bf]g|c|clear|e|exit|h|history|incognito|l|l[adfls]|pwd|z)
+$_SERVER['BAT_THEME'] => Material-Theme-Darker
+$_SERVER['FZF_DEFAULT_OPTS'] =>      --color=fg:#c0c5ce,bg:#212121,hl:#808080,fg+:#e6e6e6,bg+:#3b3b3b,hl+:#f7c662     --color=info:#f7c662,prompt:#6699cc,pointer:#a6bc69,marker:#a6bc69,spinner:#f7c662,header:#6699cc
+$_SERVER['NNN_BMS'] => d:~/Downloads;D:~/Documents;t:~/Temporary
+$_SERVER['NNN_PLUG'] => D:mediainf
+$_SERVER['NNN_TRASH'] => 1
+$_SERVER['RIPGREP_CONFIG_PATH'] => /home/ebifebrian/.ripgreprc
+$_SERVER['LESS'] => --RAW-CONTROL-CHARS
+$_SERVER['LESS_TERMCAP_mb'] => [1;31m
+$_SERVER['LESS_TERMCAP_md'] => [1;34m
+$_SERVER['LESS_TERMCAP_me'] => [0m
+$_SERVER['LESS_TERMCAP_so'] => [38;5;215m
+$_SERVER['LESS_TERMCAP_se'] => [0m
+$_SERVER['LESS_TERMCAP_us'] => [4;35m
+$_SERVER['LESS_TERMCAP_ue'] => [0m
+$_SERVER['LSCOLORS'] => Gxfxcxdxbxegedabagacad
+$_SERVER['LS_COLORS'] => no=0:fi=0:rs=0:di=36:ln=4;35:mh=4;32:pi=30;44:so=38;5;125;44:do=30;45:bd=38;5;221;44:cd=38;5;255;44:or=5;38;5;255;41:mi=5;38;5;255;41:su=30;41:sg=30;43:ca=30;42:tw=38;5;161;46:ow=30;46:st=38;5;54;44:ex=1;31:*.info=34:*.log=34:*.markdown=34:*.md=34:*.MD=34:*.mkd=34:*.org=34:*.rst=34:*.txt=34:*.TXT=34:*AUTHORS=1;34:*Changelog=1;34:*ChangeLog=1;34:*CHANGELOG=1;34:*CHANGELOG.md=1;34:*CHANGES=1;34:*CHANGES.md=1;34:*code-of-conduct.md=1;34:*CODE_OF_CONDUCT.md=1;34:*CONTRIBUTING=1;34:*contributing.md=1;34:*CONTRIBUTING.md=1;34:*CONTRIBUTORS=1;34:*COPYING=1;34:*COPYRIGHT=1;34:*HACKING=1;34:*HISTORY=1;34:*INSTALL=1;34:*INSTALL.md=1;34:*LICENSE=1;34:*LICENSE.md=1;34:*LICENSE.MD=1;34:*NEWS=1;34:*NOTICE=1;34:*PATENTS=1;34:*README=1;34:*readme.md=1;34:*README.md=1;34:*README.MD=1;34:*README.rst=1;34:*THANKS=1;34:*TODO=1;34:*VERSION=1;34:*.ac=32:*.asm=32:*.aspx=32:*.bash=32:*.c=32:*.C=32:*.cc=32:*.cl=32:*.class=32:*.coffee=32:*.cpp=32:*.csh=32:*.css=32:*.csv=32:*.cxx=32:*.db=32:*.el=32:*.erb=32:*.f90=32:*.fish=32:*.go=32:*.h=32:*.haml=32:*.hpp=32:*.hs=32:*.htm=32:*.html=32:*.java=32:*.js=32:*.json=32:*.l=32:*.less=32:*.lisp=32:*.lock=32:*.lua=32:*.m=32:*.man=32:*.n=32:*.p=32:*.php=32:*.pl=32:*.pm=32:*.pod=32:*.py=32:*.r=32:*.rb=32:*.rdf=32:*.rs=32:*.rss=32:*.sass=32:*.scss=32:*.sh=32:*.shtml=32:*.sql=32:*.sqlite=32:*.sv=32:*.svh=32:*.tex=32:*.toml=32:*.ts=32:*.v=32:*.vh=32:*.vhd=32:*.vim=32:*.xml=32:*.yaml=32:*.yml=32:*.zsh=32:*.am=38;5;246:*.in=38;5;246:*.m4=38;5;246:*.editorconfig=38;5;246:*.env=38;5;246:*.example=38;5;246:*.gitignore=38;5;246:*.gitattributes=38;5;246:*.gitmodules=38;5;246:*Makefile=32:*.3des=34:*.aes=34:*.asc=34:*.cer=34:*.cfg=34:*.conf=34:*.csr=34:*.desktop=34:*.enc=34:*.gpg=34:*.ini=34:*.otf=34:*.pgp=34:*.pid=34:*.ttf=34:*.apk=31:*.app=31:*.bat=31:*.com=31:*.exe=31:*.ai=33:*.bmp=33:*.cdr=33:*.cgm=33:*.dl=33:*.dvi=33:*.emf=33:*.eps=33:*.gif=33:*.ico=33:*.jpeg=33:*.jpg=33:*.JPG=33:*.mng=33:*.pbm=33:*.pcx=33:*.pgm=33:*.png=33:*.PNG=33:*.ppm=33:*.pps=33:*.ppsx=33:*.ps=33:*.psd=33:*.svg=33:*.svgz=33:*.tga=33:*.tif=33:*.tiff=33:*.xbm=33:*.xcf=33:*.xpm=33:*.xwd=33:*.yuv=33:*.aac=33:*.au=33:*.flac=33:*.m4a=33:*.mid=33:*.midi=33:*.mka=33:*.mp3=33:*.mpa=33:*.ogg=33:*.opus=33:*.ra=33:*.wav=33:*.wma=33:*.3g2=33:*.3gp=33:*.anx=33:*.asf=33:*.ass=33:*.avi=33:*.axv=33:*.flc=33:*.fli=33:*.flv=33:*.gl=33:*.m2v=33:*.m4v=33:*.mkv=33:*.mov=33:*.MOV=33:*.mp4=33:*.MP4=33:*.mp4v=33:*.mpeg=33:*.mpg=33:*.nuv=33:*.ogm=33:*.ogv=33:*.ogx=33:*.qt=33:*.rm=33:*.rmvb=33:*.srt=33:*.swf=33:*.vob=33:*.vtt=33:*.webm=33:*.wmv=33:*.xspf=33:*.djvu=31:*.doc=31:*.docx=31:*.dot=31:*.dotx=31:*.fla=31:*.odp=31:*.ods=31:*.odt=31:*.otp=31:*.ots=31:*.ott=31:*.pdf=31:*.ppt=31:*.pptx=31:*.rtf=31:*.vcf=31:*.wps=31:*.xls=31:*.xlsx=31:*.7z=35:*.arj=35:*.bin=35:*.bz=35:*.bz2=35:*.cab=35:*.crx=35:*.deb=35:*.dmg=35:*.gem=35:*.gz=35:*.iso=35:*.jar=35:*.lz=35:*.lzma=35:*.msi=35:*.pkg=35:*.rar=35:*.rpm=35:*.s7z=35:*.sz=35:*.tar=35:*.tbz=35:*.tbz2=35:*.tgz=35:*.tx=35:*.war=35:*.xpi=35:*.xz=35:*.z=35:*.Z=35:*.zip=35:*.zipx=35:*.torrent=34:*.crdownload=37:*~=1;34:*#=1;34:*.bak=38;5;246:*.BAK=38;5;246:*.dat=38;5;246:*.DAT=38;5;246:*.dist=38;5;246:*.DIST=38;5;246:*.dll=38;5;246:*.o=38;5;246:*.off=38;5;246:*.OFF=38;5;246:*.old=38;5;246:*.OLD=38;5;246:*.org_archive=38;5;246:*.orig=38;5;246:*.ORIG=38;5;246:*.rlib=38;5;246:*.sassc=38;5;246:*.swo=38;5;246:*.swp=38;5;246:*.tmp=38;5;246:*lockfile=38;5;246:
+$_SERVER['PHP_SELF'] => 
+$_SERVER['SCRIPT_NAME'] => 
+$_SERVER['SCRIPT_FILENAME'] => 
+$_SERVER['PATH_TRANSLATED'] => 
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1580355336.7675
+$_SERVER['REQUEST_TIME'] => 1580355336
+$_SERVER['argv'] => Array
+(
+)
+
+$_SERVER['argc'] => 0
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.

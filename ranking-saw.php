@@ -84,27 +84,17 @@ endforeach;
  * Matriks Ternormalisasi (R)
  * ------------------------------------------- */
 $matriks_r = array();
-foreach($matriks_x as $id_kriteria => $nilai_wargas):
+foreach($matriks_x as $id_kriteria => $nilai_kambings):
 	
 	$tipe = $list_kriteria[$id_kriteria]['type'];
-	foreach($nilai_wargas as $id_alternatif => $nilai) {
+	foreach($nilai_kambings as $id_alternatif => $nilai) {
 		if($tipe == 'benefit') {
-			$maxNilai = max($nilai_wargas);
-			$minNilai = min($nilai_wargas);
-			$nilai_a = $minNilai / $maxNilai;
-			$nilai_b = $minNilai / $minNilai;
-			// print_r($nilai_wargas);
-
+			$nilai_normal = $nilai / max($nilai_kambings);
 		} elseif($tipe == 'cost') {
-			$maxNilai = max($nilai_wargas);
-			$minNilai = min($nilai_wargas);
-			$nilai_a = $minNilai / $maxNilai;
-			$nilai_b = $maxNilai / $maxNilai;
-
+			$nilai_normal = min($nilai_kambings) / $nilai;
 		}
 		
-		// $matriks_r[$id_kriteria][$id_alternatif] = $nilai_normal;
-
+		$matriks_r[$id_kriteria][$id_alternatif] = $nilai_normal;
 	}
 	
 endforeach;
