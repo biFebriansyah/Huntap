@@ -103,7 +103,7 @@ foreach($matriks_x as $id_kriteria => $nilai_wargas):
 
 		}
 		
-		$matriks_r[$id_kriteria][$id_alternatif] = $nilai_normal;
+		// $matriks_r[$id_kriteria][$id_alternatif] = $nilai_normal;
 
 	}
 	
